@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.in Replica</title>
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131921;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+    width: 20%;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.options,  a {
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+}
+ a:hover{
+    background-color: brown;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    background-color: #232f3e;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.hero {
+    background-color: #e3e6e6;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner {
+    font-size: 32px;
+    
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 25px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 390px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 40px 20px 20px;
+    margin-top: 40px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-sections div {
+    margin: 10px;
+}
+
+.footer-sections h4 {
+    margin-bottom: 10px;
+}
+
+.footer-sections ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-sections li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-sections li:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.slim-footer {
+    background-color: #131921;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.slim-footer-logo span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.slim-footer-links {
+    margin: 10px 0;
+}
+
+.slim-footer-links a {
+    color: #ddd;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.slim-footer-links a:hover {
+    text-decoration: underline;
+}
+
+.slim-footer-copy {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 50px;
+}
+option{
+    text-align: left;
+}
+.hero{
+    border: 3px solid black;
+    width: 100%;
+    background-image: url(amazon\ banner.jpeg);
+    
+   
+}
+
+
+    </style>
+</head>
+<body>
+
+    
+    <header class="header">
+        <div class="logo">amazon.in</div> &nbsp;&nbsp;&nbsp;
+       
+        <div class="search-bar">
+            
+            <select class="select">
+                <option value="">All </option>
+                <option value="">Alexa Skills</option>
+                <option value="">Amazon Devices</option>
+                <option value="">Amazon Fashion</option>
+                <option value="">Amazon Pharmacies</option>
+                <option value="">Appliances</option>
+                <option value="">Apps and Games</option>
+                <option value="">Baby</option>
+                <option value="">Beauty</option>
+                <option value="">Books</option>
+                <option value="">Car and Motorbike</option>
+                <option value="">Clothing and Accessories</option>
+                <option value="">Collectibles</option>
+                <option value="">Computer and Accessories</option>
+                <option value="">Deals</option>
+                <option value="">Furniture</option>
+                <option value="">Electronics</option>
+            </select>
+        
+            <input type="text" placeholder="Search" >
+            <button>Search</button>
+        </div>
+        <div class="options">
+            <div><a href="#">Sign In</a></div>
+            <div><a href="#">Orders</a></div>
+            <div><a href="#">Cart</a></div>
+        </div>
+    </header>
+
+    
+    <nav class="navbar">
+        <div><a href="#">All</a></div>
+        <div><a href="#">MX Player</a></div>
+        <div><a href="#">Sell</a></div>
+        <div><a href="#">Bestsellers</a></div>
+        <div><a href="#">Today's Deals</a></div>
+        <div><a href="#">Mobiles</a></div>
+        <div><a href="#">Prime</a></div>
+        <div><a href="#">Fashion</a></div>
+        <div><a href="#">Customer Service</a></div>
+        <div><a href="#">New Release</a></div>
+        <div><a href="#">Electronics</a></div>
+       
+       
+    </nav>
+
+  
+    <section class="hero">
+        <div class="hero-banner"></div>
+    </section>
+
+   
+    <section class="products">
+        <div class="product-card"><img src="image1.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image2.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image3.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image7.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image9.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image10.png" alt="" width="80%" height="100%"></div>
+    </section>
+    <section class="products">
+        <div class="product-card"><img src="image4.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image5.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image6.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image8.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image11.png" alt="" width="80%" height="100%"></div>
+        <div class="product-card"><img src="image12.png" alt="" width="80%" height="100%"></div>
+    </section>
+  
+<footer class="footer">
+    <div class="footer-sections">
+        <div>
+            <h4>Get to Know Us</h4>
+            <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Press Releases</li>
+                <li>Amazon Science</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Connect with Us</h4>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Make Money with Us</h4>
+            <ul>
+                <li>Sell on Amazon</li>
+                <li>Sell under Amazon Accelerator</li>
+                <li>Protect and Build Your Brand</li>
+                <li>Amazon Global Selling</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Let Us Help You</h4>
+            <ul>
+                <li>Your Account</li>
+                <li>Returns Centre</li>
+                <li>100% Purchase Protection</li>
+                <li>Help</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Amazon Clone by [Your Name]</p>
+    </div>
+   
+<div class="slim-footer">
+    <div class="slim-footer-logo">
+        <span>amazon.in</span>
+    </div>
+    <div class="slim-footer-links">
+        <a href="#">Conditions of Use & Sale</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Interest-Based Ads</a>
+    </div>
+    <div class="slim-footer-copy">
+        © 1996-2025, Amazon.com, Inc. or its affiliates
+    </div>
+</div>
+
+</footer>
+
+
+</body>
+</html>
